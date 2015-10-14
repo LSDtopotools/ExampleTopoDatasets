@@ -1,0 +1,6 @@
+source_threshold: 12
+search_radius_nodes: 2
+threshold_stream_order: 1
+theta_step: 30
+phi_step: 30
+write_toposhield_raster: true
