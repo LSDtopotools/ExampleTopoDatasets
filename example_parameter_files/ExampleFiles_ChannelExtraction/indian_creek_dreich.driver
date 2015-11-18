@@ -1,0 +1,8 @@
+RasterFile /home/LSDTT_repositories/LSDTopoTools_ChannelExtraction/indian_creek
+OutputRasterFile /home/LSDTT_repositories/LSDTopoTools_ChannelExtraction/indian_creek
+window_radius_for_surface_fitting 6
+threshold_drainage_area 1000
+connected_components_threshold 100
+A_0 1000
+m_over_n 0.437
+number_of_junctions_dreich 1
