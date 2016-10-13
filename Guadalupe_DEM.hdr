@@ -1,15 +1,15 @@
 ENVI
 description = {
-Guadalupe_DEM2.bil}
-samples = 4167
-lines   = 4485
+Guadalupe_DEM_2m.bil}
+samples = 2084
+lines   = 2243
 bands   = 1
 header offset = 0
 file type = ENVI Standard
 data type = 4
 interleave = bsq
 byte order = 0
-map info = {UTM, 1, 1, 486286.374214293, 3606979.71007527, 1, 1, 13, North,WGS-84}
+map info = {UTM, 1, 1, 486286.374214293, 3606979.71007527, 2, 2, 13, North,WGS-84}
 coordinate system string = {PROJCS["WGS_1984_UTM_Zone_13N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-105],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["Meter",1]]}
 band names = {
 Band 1}
