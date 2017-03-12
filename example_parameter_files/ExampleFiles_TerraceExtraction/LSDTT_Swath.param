@@ -1,0 +1,30 @@
+# This is a driver file for LSDTopoTools
+# Any lines with the # symbol in the first row will be ignored
+
+# File information
+dem read extension: bil
+dem write extension: bil
+read path: /home/s0923330/Datastore/DEMs_for_analysis/eel_river/
+read fname: Eel_River_DEM
+write fname: Eel_River_DEM
+channel heads fname: Eel_River_DEM_CH_wiener_nodeindices_for_Arc
+
+# Parameters for DEM processing
+Filter topography: true
+Min slope filling: 0.0001
+surface_fitting_window_radius: 6
+
+# Parameters for swath processing
+HalfWidth: 1000
+NormaliseToBaseline: 1
+search_radius: 10
+Threshold_SO: 3
+
+# Pararmeters for terrace extraction
+QQ threshold: 0.005
+Relief lower percentile: 25
+Relief upper percentile: 75
+Slope lower percentile: 25
+Slope upper percentile: 75
+Min patch size: 1000
+Min terrace height: 5
