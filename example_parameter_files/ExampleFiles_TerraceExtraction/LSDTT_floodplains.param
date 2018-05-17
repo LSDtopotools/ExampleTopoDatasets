@@ -1,0 +1,22 @@
+# This is a driver file for LSDTopoTools
+# Any lines with the # symbol in the first row will be ignored
+
+# File information
+dem read extension: bil
+dem write extension: bil
+read path: /LSDTopoTools/Topographic_projects/Mid_Bailey_Run/
+read fname: Bailey_DEM
+write fname: Bailey_DEM
+CHeads_file: Bailey_DEM_Wsources
+
+# Parameters for floodplain extraction
+Filter topography: true
+Min slope filling: 0.0001
+surface_fitting_window_radius: 6
+Threshold_SO: 3
+Relief lower percentile: 25
+Relief upper percentile: 75
+Slope lower percentile: 25
+Slope upper percentile: 75
+QQ threshold: 0.005
+Min patch size: 1000
