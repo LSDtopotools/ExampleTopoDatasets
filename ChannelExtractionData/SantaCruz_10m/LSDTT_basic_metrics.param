@@ -1,0 +1,17 @@
+# Parameters for extracting simple surface metrics
+# Comments are preceded by the hash symbol
+
+# These are parameters for the file i/o
+# IMPORTANT: You MUST make the write directory: the code will not work if it doesn't exist.
+read path: ./
+write path: ./
+read fname: SCI_DTM_10m
+write fname: SCI_DTM_10m
+channel heads fname: SCI_DTM_10m_ATsources
+
+# Parameters for surface metrics
+surface_fitting_radius: 15
+print_slope: true
+print_aspect: true
+print_curvature: true
+print_tangential_curvature: true

@@ -1,0 +1,17 @@
+# Parameters for extracting simple surface metrics
+# Comments are preceded by the hash symbol
+
+# These are parameters for the file i/o
+# IMPORTANT: You MUST make the write directory: the code will not work if it doesn't exist.
+read path: ./
+write path: ./
+read fname: Pozo_DTM
+write fname: Pozo_DTM
+channel heads fname: Pozo_DTM_Wsources
+
+# Parameters for surface metrics
+surface_fitting_radius: 7
+print_slope: true
+print_aspect: true
+print_curvature: true
+print_tangential_curvature: true
