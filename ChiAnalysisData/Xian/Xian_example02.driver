@@ -12,7 +12,7 @@ channel heads fname: NULL
 # Parameter for filling the DEM
 min_slope_for_fill: 0.0001
 
-# Ourput geojson for easier viewing in GIS software
+# Output geojson for easier viewing in GIS software
 convert_csv_to_geojson: true
 
 # Parameters for selecting channels and basins
