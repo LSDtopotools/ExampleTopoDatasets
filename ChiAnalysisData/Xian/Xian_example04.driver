@@ -6,7 +6,7 @@
 # These are parameters for the file i/o
 # IMPORTANT: You MUST make the write directory: the code will not work if it doens't exist.
 read fname: Xian
-write fname: Xian_example03
+write fname: Xian
 channel heads fname: NULL
 
 # Parameter for filling the DEM
@@ -17,5 +17,11 @@ convert_csv_to_geojson: true
 
 # Parameters for selecting channels and basins
 threshold_contributing_pixels: 5000
-print_junctions_to_csv: true
-print_channels_to_csv: true
+BaselevelJunctions_file: junctions.txt
+
+print_basin_raster: true
+print_hillshade: true
+
+# The chi analysis
+m_over_n: 0.4
+print_segmented_M_chi_map_to_csv: true
