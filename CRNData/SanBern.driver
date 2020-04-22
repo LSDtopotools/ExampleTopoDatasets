@@ -4,7 +4,13 @@
 read fname: SanBern
 
 ####################################################
-## Comment and uncomment each step as you go along
+## BEFORE YOU START
+## You must make a directory called SanBern
+## inside the directory holding this file: 
+## this is where the spawned DEMs will go.
+##
+## After you have done that,
+## comment and uncomment each step as you go along.
 ####################################################
 
 ####################################################
@@ -27,7 +33,7 @@ read fname: SanBern
 #make_shielding_rasters: true
 
 ####################################################
-## Step 3: calculate erosion rates
+## Step 4: calculate erosion rates
 ####################################################
 #cosmo_parameter_prefix: SanBern_Spawned_Shield
 #use_spawned_basins: true
