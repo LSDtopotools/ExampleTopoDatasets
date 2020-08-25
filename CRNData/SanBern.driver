@@ -6,7 +6,7 @@ read fname: SanBern
 ####################################################
 ## BEFORE YOU START
 ## You must make a directory called SanBern
-## inside the directory holding this file: 
+## inside the directory holding this file:
 ## this is where the spawned DEMs will go.
 ##
 ## After you have done that,
